@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.15 FATAL_ERROR)
+project(cppdemo CXX)
+
+file(GLOB CPP-SRC-LIST *.cpp)
+foreach(src ${CPP-SRC-LIST})
+    message(${src})
+    string(REGEX MATCH "cppdemo/.*" relative_path ${src})
+    string(REGEX REPLACE "cppdemo/" "" target_name ${relative_path})
+    message(${target_name})
+    string(REGEX REPLACE ".cpp" "" target_name ${target_name})
+    message(${target_name})
+    add_executable(${target_name} ${src})
+endforeach()
