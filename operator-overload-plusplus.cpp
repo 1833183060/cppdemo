@@ -1,6 +1,7 @@
 /***************************************************************** 
 * Copyright (C) 2017 鸟哥  All rights reserved
 * filename: 
+* description：重载 ++运算符
 * author: 鸟哥
 see：https://www.tutorialspoint.com/cplusplus/increment_decrement_operators_overloading.htm
 *********************************************************************/
