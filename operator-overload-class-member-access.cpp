@@ -48,7 +48,7 @@ int main(){
     Tree t;    
     Handle handle{&t};
     HandleT<Tree> handleT{&t};
-    handle->foo();
+    handle->foo();//此处相当于调用 handle.operator->()->foo()
     handleT->foo();
     cout<<"------------------------------"<<endl;
     
