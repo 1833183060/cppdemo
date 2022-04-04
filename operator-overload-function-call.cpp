@@ -29,7 +29,7 @@ int main(){
    
     CurrencyConverter c(6.36);
     double USD=1.2;
-    wcout<<"It's "<<c(USD)<<"RMB for $"<<USD<<endl;
+    cout<<"It's "<<c(USD)<<"RMB for $"<<USD<<endl;
     cout<<"------------------------------"<<endl;
     cout<<"enter any key to exit";
     cin.get();
