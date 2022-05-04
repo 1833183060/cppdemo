@@ -3,3 +3,5 @@ project(cppdemo CXX)
 
 ADD_SUBDIRECTORY(operator-overload)
 ADD_SUBDIRECTORY(vector)
+ADD_SUBDIRECTORY(ios)
+ADD_SUBDIRECTORY(Variable-parameter-list)
