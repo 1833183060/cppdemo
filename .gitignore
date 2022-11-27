@@ -1,2 +1,4 @@
 ﻿*.exe
 /build/*
+/build2/*
+/.cache/*
